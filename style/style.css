@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header {
+    height: 600px;
+    background-color: blue;
+    padding: 30px;
+    color: white;
+    font-size: larger;
+}
+
+header > nav#d_logo {
+    display: flex;
+}
+
+header > nav#d_logo > p {
+    margin-left: 10px;
+}
+
+header > h1{
+    color: white;
+    margin: 200px 0px 0px 0px;
+    font-size: 5.5em;
+}
+
+header > nav > img {
+    border-radius: 50% 0% 50% 0%;
+    width: 50px;
+}
+ul{
+    margin: 0px 0px 0px auto;
+}
+
+li{
+    display: inline;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+main {
+    background-color: white;
+    max-width: 1320px;
+    min-width: 300px;
+    margin: auto;
+}
+
+#section1 {
+    display: flex;
+    margin-top: 150px;
+}
+
+#img02 {
+    width: 100%;
+    min-width: 300px;
+    max-width: 900px;
+    height: auto;
+}
+
+#div_texto_d_img{
+    padding: 100px;
+}
+
+#div_texto_d_img > h2 {
+    font-size: 2.5em;
+    color: midnightblue;
+    margin-bottom: 100px;
+}
+
+a {
+    padding: 20px 50px 20px 50px;
+    background-color: blue;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+#section2{
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#div_esquerda{
+    width: 40%;
+    height: auto;
+    vertical-align: middle;
+    margin: auto;
+}
+
+#div_esquerda > p{
+    font-size: 2.5em;
+    color: midnightblue;
+    font-weight: bold;
+    text-align: center;
+}
+
+#div_direita{
+    height: 90vh;
+    width: 60%;
+    background-color: #d7f8f9;
+    border-radius: 20px;
+    align-items: center;
+    
+}
+
+#div_direita > div > h3{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#div_direita > div > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+#centraliza{
+    width: 40vw;
+    margin: auto;
+}
+
+footer {
+    background-color: black;
+    padding: 30px;
+}
+
+footer > p{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
